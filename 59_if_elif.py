@@ -2,14 +2,17 @@
 based on age."""
 
 age = int(input("Enter a age : "))
-if age <= 14 :
+if age >= 0 and age <= 13 :
     print("Child")
 
-elif age <= 18 :
+elif age >= 14 and age <= 18 :
     print("Teenager")
 
-elif age <= 60 :
+elif age >= 19 and age <= 60 :
     print("Adult")
 
-else :
+elif age >= 61 and age <=100 :
     print("Senior")
+
+else :
+    print("Please Enter a vaild age ")
