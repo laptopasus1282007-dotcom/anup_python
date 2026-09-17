@@ -11,3 +11,12 @@ print("All positive numbers present in an array : ",end=" ")
 for n in list:
     if n>0:
         print(n,end=" ")
+
+
+
+'''list=[]
+length=int(input("Enter a Length of element : "))
+for i in range(length):
+    name=int(input("Enter a element : "))
+    list.append(name)
+print("list are : ",list)'''
