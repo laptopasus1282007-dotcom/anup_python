@@ -13,7 +13,6 @@ class mobile():
         print("rating :",object.rating)
         print("price :",object.price)
         print("---------------------")
-
         
 m1=mobile()
 m1.anup("Mototola","green","9.8","24999")

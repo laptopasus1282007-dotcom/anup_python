@@ -4,7 +4,7 @@ class student:
         self.rno = rno
         self.age = age
         self.city = city
-        self.per = per
+        self.per = (per)
 
     def display(self):
         print("Student Info : ")
@@ -17,10 +17,13 @@ class student:
 
 
 s1 = student()
-s1.setStudent("Anup", "122", "19", "Akola", "89.5")
+s1.setStudent("Anup", 122, "19", "Akola", "89")
 s1.display()
 
 s2 = student()
-s2.setStudent("Aditi", "125", "19", "Warud", "93.5")
+s2.setStudent("Aditi", "125", "19", "Warud", "93")
 s2.display()
-    
+
+s3 = student()
+s3.setStudent("Palak","261","19","Chandrpur","34.2")
+s3.display()
